@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e6e6e6;
+    padding: 0;
+    margin:0;
+    
+}
+
+.container{
+    width: 50%;
+    height: auto;
+    background: #b5ffd9;
+    margin:auto;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav li {
+    float: left;
+}
+
+
+article {
+    width: 98.8%;
+    height: auto;
+    border-radius: 3px;
+    margin: 5px 5px 5px 5px;
+    border: 3px solid gainsboro;
+    clear: both;
+    background-color:blue;
+}
+
+article p {
+    padding: 5px 6px 5px 5px;
+    line-height: 1.5;  
+}
+article .konten {
+    width: 23%;
+    height: auto;
+    margin: 5px 5px 5px ;
+    border-radius: 10px;
+    border: 25px solid gainsboro;
+    float: left;
+}
+
+
+article .konten img {
+    width: 95.8%;
+    height: 150px;
+    margin: 5px 5px 5px 5px;
+
+}
+article .konten:hover {
+    opacity:0.9;
+
+}
+article .konten .judul a {
+    margin-left: 5px;
+    text-decoration: none;
+    font-size:x-large;
+    color:#808080;
+}
+
+article .konten a:hover {
+    opacity:0.9;
+}
