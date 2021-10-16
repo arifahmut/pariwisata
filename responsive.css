@@ -1,26 +1,25 @@
-/* Untuk tablet*/
+/* Untuk Tablet */
 @media all and (max-width: 1000px) {
-  .header-list {
-    display: block;
-  }
-
   .top-wrapper h1 {
     font-size: 32px;
   }
-
-  .top-wrapper h2 {
+  .heading h2 {
     font-size: 20px;
   }
 
-  .konten {
+  .lesson {
     width: 50%;
     margin-bottom: 50px;
   }
+
+  footer {
+    text-align: center;
+  }
 }
 
-/*Untuk smartphone*/
+/* Untuk Smartphone */
 @media all and (max-width: 670px) {
-  .header-list {
+  .header-right {
     display: none;
   }
 
@@ -33,7 +32,7 @@
   }
 
   .top-wrapper {
-    text-align: center;
+    text-align: left;
   }
 
   .top-wrapper h1 {
@@ -46,16 +45,11 @@
     line-height: 20px;
   }
 
-  .judul {
-    width: 100px;
+  .lesson {
+    width: 100%;
   }
 
-  .footer {
-    text-align: center;
-  }
-
-  .footer-list li {
+  footer {
     text-align: center;
   }
 }
-
