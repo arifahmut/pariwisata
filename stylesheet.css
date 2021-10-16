@@ -1,52 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Lucida Grande";
 }
 
-.header {
-  background-color: #170055;
-  color: #b5ffd9;
-  height: 100px;
-}
-
-.header-logo {
-  float: left;
-  font-size: 20px;
-  padding: 20px 40px 20px 40px;
-  font-weight: bold;
-  font-family: verdana;
-  text-shadow: 2px 2px grey;
-}
-
-.navbar {
-  display: flex;
-  align-items: center;
-  padding: 20px;
-  color: #b5ffd9;
-}
-nav {
-  flex: 1;
-  text-align: right;
-}
-nav ul {
-  display: inline-block;
-  list-style-type: none;
-}
-nav ul li {
-  display: inline;
-  margin-right: 20px;
-  color: #b5ffd9;
+a {
   text-decoration: none;
-  text-transform: uppercase;
-  font-size: 16px;
 }
 
-.navbar li active.a {
-  color: #fff;
-  font-weight: bold;
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #e7455f;
+  position: fixed;
+  top: 0;
+  z-index: 10;
 }
 
-.navbar a:hover {
-  color: #b5ffd9;
-  font-weight: bold;
+.logo {
+  width: 120px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: #1b1a17;
 }
